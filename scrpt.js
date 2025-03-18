@@ -4,6 +4,7 @@ const diminuirFonteBotao=document.getElementById('diminuir-fonte');
 
 
 let tamanhoAtualfonte=1;
+
 aumentaFonteBotao.addEventListener('click',function(){
     tamanhoAtualFonte +=0.1;
     document.body.style.fontSize=`${tamanhoAtualfonte}rem`
